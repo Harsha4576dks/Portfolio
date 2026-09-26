@@ -1,0 +1,76 @@
+.home-container {
+  min-height: min(68vh, 620px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: clamp(3rem, 8vw, 4rem) 0;
+}
+
+.home-container h1 {
+  font-size: clamp(2.25rem, 8vw, 4rem);
+  line-height: 1.1;
+  overflow-wrap: anywhere;
+}
+
+.home-container p {
+  max-width: 38rem;
+  margin-top: 1rem;
+  color: #cbd5e1;
+}
+
+.badge {
+  display: inline-block;
+  padding: 0.4rem 1rem;
+  border-radius: 999px;
+  background: rgba(6, 182, 212, 0.1);
+  color: #22d3ee;
+  border: 1px solid rgba(6, 182, 212, 0.2);
+  font-size: 0.85rem;
+  width: fit-content;
+  margin-bottom: 1.5rem;
+}
+
+.highlight {
+  color: #22d3ee;
+}
+
+.btn-group {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.btn {
+  padding: 0.8rem 1.5rem;
+  border-radius: 0.75rem;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.btn-primary {
+  background: #06b6d4;
+  color: #0f172a;
+}
+
+.btn-secondary {
+  background: #1e293b;
+  color: #f8fafc;
+  border: 1px solid #334155;
+}
+
+@media (max-width: 480px) {
+  .home-container {
+    min-height: auto;
+    padding: 4rem 0;
+  }
+
+  .btn-group {
+    flex-wrap: wrap;
+  }
+
+  .btn {
+    text-align: center;
+  }
+}

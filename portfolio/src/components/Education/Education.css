@@ -1,0 +1,39 @@
+.education-section {
+  padding: 4rem 1rem;
+  border-top: 1px solid #1e293b;
+}
+
+.edu-card {
+  background: #0f172a;
+  border: 1px solid #1e293b;
+  padding: clamp(1rem, 4vw, 1.5rem);
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+}
+
+.edu-card h3 {
+  color: #f8fafc;
+  margin-bottom: 0.5rem;
+}
+
+.batch {
+  color: #94a3b8;
+  font-size: 0.9rem;
+}
+
+.cgpa {
+  margin-top: 0.5rem;
+  color: #cbd5e1;
+}
+
+.cgpa span {
+  color: #22d3ee;
+  font-weight: bold;
+}
+
+@media (max-width: 480px) {
+  .edu-card h3 {
+    font-size: 1.05rem;
+    overflow-wrap: anywhere;
+  }
+}
