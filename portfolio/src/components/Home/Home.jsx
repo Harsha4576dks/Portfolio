@@ -21,7 +21,9 @@ export default function Home() {
           onClick={(e) => { e.preventDefault(); alert("Replace with your resume link!"); }} 
           className="btn btn-primary"
         >
+          
           View Resume
+          
         </a>
         <button onClick={scrollToProjects} className="btn btn-secondary">
           View Projects
