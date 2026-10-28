@@ -16,14 +16,13 @@ export default function Home() {
       </p>
 
       <div className="btn-group">
-        <a 
-          href="#resume" 
-          onClick={(e) => { e.preventDefault(); alert("Replace with your resume link!"); }} 
+        <a
+          href="https://drive.google.com/drive/folders/1Ro7yBF3TcSm-ek8DUehTNDGyQYQPNBlh"
+          target="_blank"
+          rel="noreferrer"
           className="btn btn-primary"
         >
-          
           View Resume
-          
         </a>
         <button onClick={scrollToProjects} className="btn btn-secondary">
           View Projects
