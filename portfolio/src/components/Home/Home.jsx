@@ -1,5 +1,6 @@
 import React from 'react';
 import './Home.css';
+import resumePdf from '../../assets/Resume (9) (1).pdf';
 
 export default function Home() {
   const scrollToProjects = () => {
@@ -17,9 +18,9 @@ export default function Home() {
 
       <div className="btn-group">
         <a
-          href="https://drive.google.com/drive/folders/1Ro7yBF3TcSm-ek8DUehTNDGyQYQPNBlh"
+          href={resumePdf}
           target="_blank"
-          rel="noreferrer"
+          rel="noopener noreferrer"
           className="btn btn-primary"
         >
           View Resume
