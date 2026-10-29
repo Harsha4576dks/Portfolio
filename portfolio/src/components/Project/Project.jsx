@@ -3,7 +3,7 @@ import './Project.css';
 
 export default function Project() {
   const dummyProjects = [
-    { title: 'Project One', desc: 'FastAPI & React Application', github: 'https://github.com/Harsha4576dks/Centralized-College-Counseling-Seat-Allocation-Platform.git', live: 'https://centralized-college-counseling-seat-allocation-platf-9055aimpj.vercel.app' },
+    { title: 'Project One', desc: 'FastAPI & React Application', github: 'https://github.com/Harsha4576dks/Centralized-College-Counseling-Seat-Allocation-Platform.git', live: 'https://centralized-college-counseling-seat-kappa.vercel.app/login' },
     { title: 'Project Two', desc: 'Supabase & SQL Analytics', github: 'https://github.com/Harsha4576dks/expense_tracker_mvc.git', live: 'https://expense-tracker-lvs74l0hk-harsha-c572.vercel.app' }
   ];
 
