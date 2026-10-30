@@ -31,6 +31,7 @@
   font-weight: bold;
 }
 
+
 @media (max-width: 480px) {
   .edu-card h3 {
     font-size: 1.05rem;
