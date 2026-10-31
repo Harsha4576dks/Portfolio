@@ -1,6 +1,6 @@
 import React from 'react';
 import './Home.css';
-import resumePdf from '../../assets/Resume (9) (1).pdf';
+import resumePdf from '../../assets/Harsha_Resume.pdf';
 
 export default function Home() {
   const scrollToProjects = () => {
